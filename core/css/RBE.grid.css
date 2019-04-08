@@ -1,0 +1,168 @@
+/* ! --- JS modules: GRID SYSTEM --- */
+/* {@link https://simplegrid.io/} */
+[data-js-module] {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[data-js-module] .row {
+    position: relative;
+    width: 100%;
+}
+
+[data-js-module] .row [class^="col"] {
+    float: left;
+    padding: 0.5rem 2%;
+    min-height: 0.125rem;
+}
+
+[data-js-module] .col-1,
+[data-js-module] .col-2,
+[data-js-module] .col-3,
+[data-js-module] .col-4,
+[data-js-module] .col-5,
+[data-js-module] .col-6,
+[data-js-module] .col-7,
+[data-js-module] .col-8,
+[data-js-module] .col-9,
+[data-js-module] .col-10,
+[data-js-module] .col-11,
+[data-js-module] .col-12 {
+    width: 96%;
+}
+
+[data-js-module] .col-1-sm {
+    width: 4.33%;
+}
+
+[data-js-module] .col-2-sm {
+    width: 12.66%;
+}
+
+[data-js-module] .col-3-sm {
+    width: 21%;
+}
+
+[data-js-module] .col-4-sm {
+    width: 29.33%;
+}
+
+[data-js-module] .col-5-sm {
+    width: 37.66%;
+}
+
+[data-js-module] .col-6-sm {
+    width: 46%;
+}
+
+[data-js-module] .col-7-sm {
+    width: 54.33%;
+}
+
+[data-js-module] .col-8-sm {
+    width: 62.66%;
+}
+
+[data-js-module] .col-9-sm {
+    width: 71%;
+}
+
+[data-js-module] .col-10-sm {
+    width: 79.33%;
+}
+
+[data-js-module] .col-11-sm {
+    width: 87.66%;
+}
+
+[data-js-module] .col-12-sm {
+    width: 96%;
+}
+
+[data-js-module] .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[data-js-module] .hidden-sm {
+    display: none;
+}
+
+/* @media 540px and lower */
+@media all and (max-width: 33.75em) {
+    [data-js-module] .col-6-sm {
+        width: 100%;
+        min-width: 280px;
+    }
+}
+
+/* ! @media 540px */
+@media only screen and (min-width: 33.75em) {
+    [data-js-module] {
+        width: 100%;
+    }
+}
+
+/* ! @media 720px */
+@media only screen and (min-width: 45em) {
+    [data-js-module] .col-1 {
+        width: 4.33%;
+    }
+
+    [data-js-module] .col-2 {
+        width: 12.66%;
+    }
+
+    [data-js-module] .col-3 {
+        width: 21%;
+    }
+
+    [data-js-module] .col-4 {
+        width: 29.33%;
+    }
+
+    [data-js-module] .col-5 {
+        width: 37.66%;
+    }
+
+    [data-js-module] .col-6 {
+        width: 46%;
+    }
+
+    [data-js-module] .col-7 {
+        width: 54.33%;
+    }
+
+    [data-js-module] .col-8 {
+        width: 62.66%;
+    }
+
+    [data-js-module] .col-9 {
+        width: 71%;
+    }
+
+    [data-js-module] .col-10 {
+        width: 79.33%;
+    }
+
+    [data-js-module] .col-11 {
+        width: 87.66%;
+    }
+
+    [data-js-module] .col-12 {
+        width: 96%;
+    }
+
+    [data-js-module] .hidden-sm {
+        display: block;
+    }
+}
+
+/* ! @media 960px and higher */
+@media only screen and (min-width: 60em) {
+    [data-js-module] {
+        width: 100%;
+    }
+}
